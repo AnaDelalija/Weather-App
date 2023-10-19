@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure that the background image is positioned correctly */
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.loading-text {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.weather-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.726
+  ); 
+}
